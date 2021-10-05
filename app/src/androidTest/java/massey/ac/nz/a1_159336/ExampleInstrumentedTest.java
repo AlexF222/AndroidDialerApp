@@ -23,4 +23,10 @@ public class ExampleInstrumentedTest {
         Context appContext = InstrumentationRegistry.getInstrumentation().getTargetContext();
         assertEquals("massey.ac.nz.a1_159336", appContext.getPackageName());
     }
+    
+    @Test
+    public void TestHelloWorld(){
+        String t = "Hello World";
+        assertEquals("Hello World", t);
+    }
 }
